@@ -1,0 +1,2 @@
+O objetivo do new é instanciar o objeto, seja em alguma variável de referência ou na memória. 
+Quando essa palavra é utilizada o construtor da classe da instância é chamado/invocado.
