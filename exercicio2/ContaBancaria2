@@ -1,0 +1,58 @@
+public class ContaBancaria2 {
+ int agencia,contaCorrente;
+ double saldo,limiteExtra;
+ String titularConta;
+  
+public void imprimirSaldo(){
+    System.out.println("Saldo: " + this.saldo);
+}
+
+public void imprimirSaldoTotal(){
+    System.out.println("Saldo Total: " + this.saldo + this.limiteExtra);
+}
+    
+ public void imprimirAgencia(){
+     System.out.println("A agencia é: " + this.agencia);
+ }   
+  public void imprimirContaCorrente(){
+      System.out.println("A conta-corrente é: " + this.contaCorrente);
+      
+  }
+  public void imprimirTitular(){
+ 	System.out.println("O titular da conta é: " + this.titularConta);
+  
+}
+
+	public static void main(String [] args){
+
+   ContaBancaria2 cb2 = new ContaBancaria2();
+   ContaBancaria2 cb1 = new ContaBancaria2();
+   cb2.agencia = 3692;
+   cb2.contaCorrente = 14785;
+   cb2.saldo = 85;
+   cb2.limiteExtra = 21;
+   cb2.titularConta = "Larissa";
+ 
+  cb2.imprimirSaldo();
+  cb2.imprimirSaldoTotal();
+  cb2.imprimirAgencia();
+  cb2.imprimirContaCorrente();
+  cb2.imprimirTitular();
+
+   cb2.agencia = 4992;
+   cb2.contaCorrente = 58476;
+   cb2.saldo = 100;
+   cb2.limiteExtra = 99;
+   cb2.titularConta = "Lais";
+ 
+  cb2.imprimirSaldo();
+  cb2.imprimirSaldoTotal();
+  cb2.imprimirAgencia();
+  cb2.imprimirContaCorrente();
+  cb2.imprimirTitular();
+  
+}
+ }
+  
+
+
