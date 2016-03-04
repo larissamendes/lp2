@@ -1,0 +1,6 @@
+Tipo Abstrato de Dados: é uma especificação de um conjunto de dados e operações que podem ser executadas sobre 
+esses dados. 
+Classe: É um tipo abstrato de dado.
+Objeto: são instâncias da classe.
+Mensagens: é um tipo de "mensagem fictícia" que ocorre dentro do sistema para "invocar"diretamente 
+uma classe com finalidade de usá-la.
