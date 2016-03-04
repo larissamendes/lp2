@@ -1,5 +1,5 @@
 public class ContaBancaria2 {
- int agencia,contaCorrente;
+ int contaCorrente,agencia;
  double saldo,limiteExtra;
  String titularConta;
   
@@ -27,10 +27,10 @@ public void imprimirSaldoTotal(){
 
    ContaBancaria2 cb2 = new ContaBancaria2();
    ContaBancaria2 cb1 = new ContaBancaria2();
-   cb2.agencia = 3692;
-   cb2.contaCorrente = 14785;
-   cb2.saldo = 85;
-   cb2.limiteExtra = 21;
+   cb2.agencia = 3610;
+   cb2.contaCorrente = 15766;
+   cb2.saldo = 35.54;
+   cb2.limiteExtra = 50.00;
    cb2.titularConta = "Larissa";
  
   cb2.imprimirSaldo();
@@ -39,10 +39,10 @@ public void imprimirSaldoTotal(){
   cb2.imprimirContaCorrente();
   cb2.imprimirTitular();
 
-   cb2.agencia = 4992;
-   cb2.contaCorrente = 58476;
-   cb2.saldo = 100;
-   cb2.limiteExtra = 99;
+   cb2.agencia = 1052;
+   cb2.contaCorrente = 6132;
+   cb2.saldo = 42.31;
+   cb2.limiteExtra = 75.500;
    cb2.titularConta = "Lais";
  
   cb2.imprimirSaldo();
