@@ -23,7 +23,7 @@ System.out.println("Posição: " + (i+1) + "-" + (i+palSize));
 	String text = args[0];
  	int size = text.length();
  	int testVezes = size - palSize;
-	TrabalhoPalindromo tp = new TrabalhoPalindromo();
+	Palindrome tp = new Palindrome();
 	tp.encontraPal(text,testVezes);    
   }
 }
