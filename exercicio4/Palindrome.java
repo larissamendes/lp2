@@ -1,4 +1,4 @@
-public class TrabalhoPalindromo{
+public class Palindrome{
 	public static int palSize = 5;
 	boolean  bool=false;
 	String teste="";    
